@@ -1,0 +1,32 @@
+[
+  {
+    "uri": "/api/test",
+    "method": "GET",
+    "handler": "test"
+  },
+  {
+    "uri": "/AuthService/oauth/token",
+    "method": "POST",
+    "handler": "getToken"
+  },
+  {
+    "uri": "/FHIRService/patient/:id",
+    "method": "GET",
+    "handler": "getPatient"
+  },
+  {
+    "uri": "/FHIRService/practitioner/:id",
+    "method": "GET",
+    "handler": "getPractitioner"
+  },
+  {
+    "uri": "/FHIRService/practitionerRole/:id",
+    "method": "GET",
+    "handler": "getPractitionerRole"
+  },
+  {
+    "uri": "/FHIRService/organization/:id",
+    "method": "GET",
+    "handler": "getOrganisation"
+  }
+]

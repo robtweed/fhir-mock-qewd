@@ -1,0 +1,32 @@
+{
+        "resourceType": "Organization",
+        "id": "d16a4add-b660-4aa3-a473-057c02b30f80",
+        "active": true,
+        "type": [
+            {
+                "coding": [
+                    {
+                        "system": "https://fhir.hacw.nhs.uk/organization-type",
+                        "code": "GPPR",
+                        "display": "GP Practice"
+                    }
+                ],
+                "text": "GP Practice"
+            }
+        ],
+        "name": "Test Medical Centre",
+        "address": [
+            {
+                "line": [
+                    "Test Medical Centre"
+                ],
+                "use": "work",
+                "type": "both",
+                "text": "Test Medical Centre, Test Street, Test City, Test County, TR4 9TT",
+                "city": "Test Street",
+                "district": "Test City",
+                "state": "Test County",
+                "postalCode": "TR4 9TT"
+            }
+        ]
+    }

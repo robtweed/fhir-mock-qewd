@@ -1,0 +1,20 @@
+{
+        "resourceType": "Practitioner",
+        "id": "69649ff7-148a-4a38-baaa-7827cb32bb69",
+        "identifier": [
+            {
+                "value": "test",
+                "system": "https://fhir.nhs.uk/Id/sds-user-id"
+            }
+        ],
+        "active": true,
+        "name": [
+            {
+                "given": [
+                    "Test"
+                ],
+                "family": "Practitioner",
+                "text": "Dr Alistair Walling"
+            }
+        ]
+    }

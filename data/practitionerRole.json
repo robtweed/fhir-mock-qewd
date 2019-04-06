@@ -1,0 +1,28 @@
+{
+        "resourceType": "Bundle",
+        "id": "0104f713-3e9f-4a1f-8ec2-f1847c14e8fd",
+        "type": "searchset",
+        "link": [
+            {
+                "relation": "self",
+                "url": "https://test:444/FHIRService/PractitionerRole?practitioner=Practitioner/69649ff7-148a-4a38-baaa-7827cb32bb69"
+            }
+        ],
+        "entry": [
+            {
+                "fullUrl": "https://test:444/FHIRService/PractitionerRole/ee35939e-6e79-4628-b69f-0ac343184aa5",
+                "resource": {
+                    "resourceType": "PractitionerRole",
+                    "id": "ee35939e-6e79-4628-b69f-0ac343184aa5",
+                    "organization": {
+                        "reference": "Organization/d16a4add-b660-4aa3-a473-057c02b30f80",
+                        "display": "Organization"
+                    }
+                },
+                "search": {
+                    "mode": "match"
+                }
+            }
+        ],
+        "total": 1
+    }

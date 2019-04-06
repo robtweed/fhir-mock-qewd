@@ -1,0 +1,71 @@
+{
+        "resourceType": "Bundle",
+        "id": "fc9a63a1-1d5f-44dd-bf18-5bfeed6f8f06",
+        "type": "searchset",
+        "link": [
+            {
+                "relation": "self",
+                "url": "https://test:444/FHIRService/Patient?identifier=8888888888"
+            }
+        ],
+        "entry": [
+            {
+                "fullUrl": "https://test:444/FHIRService/Patient/7fa060b2-ee14-4b8f-9197-f035ce3cca91",
+                "search": {
+                    "mode": "match"
+                },
+                "resource": {
+                    "resourceType": "Patient",
+                    "id": "7fa060b2-ee14-4b8f-9197-f035ce3cca91",
+                    "identifier": [
+                        {
+                            "value": "8888888888",
+                            "use": "official",
+                            "system": "https://fhir.nhs.uk/Id/nhs-number"
+                        }
+                    ],
+                    "name": [
+                        {
+                            "given": [
+                                "Smith"
+                            ],
+                            "family": "John",
+                            "prefix": [
+                                "Mr"
+                            ],
+                            "use": "official",
+                            "period": {
+                                "start": "2018-11-01T12:04:48.697Z"
+                            },
+                            "text": "Mr John Smith"
+                        }
+                    ],
+                    "telecom": [
+                        {
+                            "value": "+44 7777777777",
+                            "system": "phone",
+                            "use": "home",
+                            "rank": "1",
+                            "period": {
+                                "start": "2018-08-01"
+                            }
+                        }
+                    ],
+                    "gender": "male",
+                    "birthDate": "1905-06-13",
+                    "deceasedBoolean": false,
+                    "generalPractitioner": [
+                        {
+                            "reference": "Practitioner/69649ff7-148a-4a38-baaa-7827cb32bb69",
+                            "display": "General Practitioner"
+                        },
+                        {
+                            "reference": "Organization/d16a4add-b660-4aa3-a473-057c02b30f80",
+                            "display": "Organization"
+                        }
+                    ]
+                }
+            }
+        ],
+        "total": 1
+    }
