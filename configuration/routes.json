@@ -10,22 +10,22 @@
     "handler": "getToken"
   },
   {
-    "uri": "/FHIRService/patient/:id",
+    "uri": "/FHIRService/Patient",
     "method": "GET",
     "handler": "getPatient"
   },
   {
-    "uri": "/FHIRService/practitioner/:id",
+    "uri": "/FHIRService/Practitioner/:id",
     "method": "GET",
     "handler": "getPractitioner"
   },
   {
-    "uri": "/FHIRService/practitionerRole/:id",
+    "uri": "/FHIRService/PractitionerRole",
     "method": "GET",
     "handler": "getPractitionerRole"
   },
   {
-    "uri": "/FHIRService/organization/:id",
+    "uri": "/FHIRService/Organization/:id",
     "method": "GET",
     "handler": "getOrganisation"
   }

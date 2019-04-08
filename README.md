@@ -8,7 +8,7 @@ See /configuration/routes.json for APIs
 
 Start as a standalone monolith QEWD-Up Docker application using:
 
-        docker run -d --name fhir_dummy --rm -p 3000:8080 -v ~/fhir-mock-qewd:/opt/qewd/mapped rtweed/qewd-server
+        docker run -d --name yhcr_service --rm --net qewd-net -p 3000:8080 -v ~/qewd-helm/fhir_dummy:/opt/qewd/mapped rtweed/qewd-server
 
 
 
