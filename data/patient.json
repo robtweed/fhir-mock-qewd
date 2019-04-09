@@ -63,6 +63,20 @@
                             "reference": "Organization/d16a4add-b660-4aa3-a473-057c02b30f80",
                             "display": "Organization"
                         }
+                    ],
+                    "address": [
+                        {
+                            "line": [
+                                "Test Patient Address"
+                            ],
+                            "use": "home",
+                            "type": "both",
+                            "text": "Test Patient Address, Test Patient Street, Test Patient City, Test Patient County, TR4 9TT",
+                            "city": "Test Patient Street",
+                            "district": "Test Patient City",
+                            "state": "Test Patient County",
+                            "postalCode": "TR4 9TT"
+                        }
                     ]
                 }
             }
